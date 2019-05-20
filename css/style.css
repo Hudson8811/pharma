@@ -14,20 +14,51 @@
 #header .menu > nav > ul > li:hover > a{color: #0569a5;}
 #header .menu > nav > ul > li.drop > ul > li > a .image_block{width: 73px; -webkit-flex-shrink: 0;    -ms-flex-negative: 0; flex-shrink: 0; margin-top: -4px;}
 #header .search_block{width: 31.5%; margin-left: 5px; background: #f2f2f2; border-radius: 3px;}
-#header .search_block input{font-size: 16px; line-height: 20px; padding: 10px 24px; color: #818181; background: transparent;}
+#header .search_block input{font-size: 16px; line-height: 20px; padding: 10px 24px; color: #818181; background: transparent; font-family: 'Futura PT Light';}
 #header .search_block button{width: 20px; height: 20px; right: 11px; top: 50%; margin-top: -10px; background: url(../img/lupa.svg) no-repeat; background-size: 100% auto;}
 
 .big_banner{height: 343px; color: #fff; padding: 0 30px; margin-bottom: 42px;}
-.big_banner .ah1{ font-size: 42px; line-height: 59px;}
-.big_banner > *{max-width: 690px;}
+.big_banner .ah1{ font-size: 42px; line-height: 59px; max-width: 690px;}
+.big_banner .ah2{ font-size: 48px; line-height: 51px;}
+.page_banner{height: 264px;}
+
+#bread{font-size: 14px; margin-top: 11px;}
+#bread li{display: inline; font-family: 'Futura PT Light';}
+#bread li a{font-family: 'Futura PT Light';}
+#bread li + li:before{content: '/'; display: inline;}
 
 .about_block{margin-bottom: 47px;}
 .about_block .ah1{font-size: 36px; color: #0569a5; line-height: 39px; font-family: 'Futura PT Demi'; margin-bottom: 25px;}
 .about_block .image_block{width: 48%; }
 .about_block .image_block img{display: block; width: 100%;}
-.about_block li:before{content: ''; display: inline-block; vertical-align: middle; width: 5px; height: 5px; border-radius: 50%; background: #0569a5; margin-right: 9px;}
 .about_block .text_block{width: 46.7%; text-align: justify;}
 .about_block .text_block .button{width: 170px; line-height: 46px; border-radius: 3px; background: #0569a5; color: #fff; margin-top: 35px;}
+
+.main_menu{padding-top: 5px;}
+.main_menu li{box-sizing: border-box; padding-right: 30px; font-size: 17px; line-height: 17px; min-height: 34px;}
+.main_menu li a{display: inline-block; vertical-align: top; max-width: 330px;}
+.main_menu li a:hover{color: #346ca3; font-family: 'Futura PT Medium';}
+
+.about__page{text-align: justify; font-size: 16px; line-height: 24px; padding-bottom: 40px;}
+.about__page .double_block{margin-top: 40px;}
+.about__page .double_block li{text-align: justify;}
+.about__page .double_block .sklad, .about__page .double_block .truck{width: 42.8%;}
+.about__page .double_block .ah1{font-size: 18px; line-height: 21px; font-family: 'Futura PT Medium'; color: #2f68a0; margin-bottom: 32px;}
+
+.contacts__page{padding-top: 21px; padding-bottom: 45px;}
+.contacts__page .double_block{margin-bottom: 65px;}
+.contacts__page .contacts_block, .contacts__page .form_block{width: 315px;}
+.contacts__page .contacts_block{padding-right: 65px; font-size: 17px; line-height: 30px;}
+.contacts__page .contacts_block .address{position: relative; margin-bottom: 30px; margin-top: -4px;}
+.contacts__page .contacts_block .address:before{content: ''; position: absolute; left: -25px; top: 7px; width: 12px; height: 15px; background: url(../img/address.png) no-repeat;}
+.contacts__page .contacts_block .tel{position: relative;}
+.contacts__page .contacts_block .tel:before{content: ''; position: absolute; left: -25px; top: 8px; width: 14px; height: 14px; background: url(../img/tel.png) no-repeat;}
+.contacts__page .form_block{padding-left: 85px;}
+.contacts__page .ah1{font-size: 18px; line-height: 21px; margin-bottom: 19px; color: #0569a5;}
+.contacts__page .form_block form{max-width: 234px;}
+.contacts__page .form_block input{font-size: 16px; color: #666666; line-height: 20px; padding: 9px 27px; border:1px solid #0569a5; border-radius: 3px; margin-bottom: 10px; background: transparent; height: 40px;}
+.contacts__page .form_block .button{width: 130px; line-height: 40px; border-radius: 3px; background: #0569a5; color: #fff; margin-top: 0; font-size: 16px;}
+.contacts__page .double_map .block{width: 41.5%; height: 338px;}
 
 #footer .logo_block{width: 23%; padding-right: 20px; padding-bottom: 90px;}
 #footer .logo_block .logo{width: 178px; height: 90px; background: url(../img/logo_f.png) no-repeat; margin-top: 7px;}
@@ -48,5 +79,5 @@
 #footer .form_footer{width: 26.5%; }
 #footer .form_footer .ah1{font-size: 14px; line-height: 17px; margin-bottom: 19px; padding-top: 3px; padding-left: 33px;}
 #footer .form_footer form{max-width: 234px;}
-#footer .form_footer input{font-size: 14px; color: #666666; line-height: 18px; padding: 10px 30px; border:1px solid #0569a5; border-radius: 3px; margin-bottom: 10px; background: transparent;}
+#footer .form_footer input{font-size: 14px; color: #666666; line-height: 18px; padding: 10px 30px; border:1px solid #0569a5; border-radius: 3px; margin-bottom: 10px; background: transparent; height: 40px;}
 #footer .form_footer .button{width: 170px; line-height: 46px; border-radius: 3px; background: #0569a5; color: #fff; margin-top: 0; font-size: 14px;}

@@ -23,6 +23,9 @@
 }
 
 @media screen and (max-width: 999px){
+	.contacts__page .form_block{padding-left: 20px;}
+	.contacts__page .contacts_block{padding-right: 20px;}
+	.contacts__page .contacts_block, .contacts__page .form_block{width: 250px;}
 	.big_banner{display: block; padding: 100px 20px; height: auto;}
 	.btn11{display: block; float: right; margin-top: 35px;}
 	#header .menu.active nav{display: block;}
@@ -60,6 +63,20 @@
 }
 
 @media screen and (max-width: 650px){
+	.contacts__page .double_map .block{width: auto;}
+	.contacts__page .double_map{display: block;}
+	.contacts__page .form_block .button{margin-left: auto; margin-right: auto;}
+	.contacts__page .ah1{text-align: center;}
+	.contacts__page .form_block form{margin:20px auto 0;}
+	.contacts__page{padding-top: 0; padding-bottom: 35px;}
+	.contacts__page .contacts_block .address, .contacts__page .contacts_block .tel{margin-left: 25px;}
+	.contacts__page .contacts_block, .contacts__page .form_block{width: auto;padding-left: 0; padding-right: 0;}
+	.contacts__page .double_block{display: block; margin-bottom: 30px;}
+	.about__page .double_block .ah1{margin-bottom: 15px;}
+	.about__page .double_block .sklad, .about__page .double_block .truck{width: auto;}
+	.about__page .double_block{display: block;}
+	.main_menu .w33{width: auto; padding-right: 0;}
+	.main_menu{display: block;}
 	#footer .contacts_block .work{width: 100%; margin-left: 0; bottom: 33px;}
 	#footer .logo_block .copy{width: 100%; bottom: 10px;}
 	#footer .form_footer .button{margin-left: auto; margin-right: auto;}
@@ -75,7 +92,7 @@
 	.about_block .image_block, .about_block .text_block{width: auto; margin-bottom: 20px;}
 	.about_block .flex_no_wrap{display: block;}
 	.big_banner{padding-top: 50px; padding-bottom: 50px;}
-	.big_banner .ah1, .about_block .ah1{font-size: 25px; line-height: 27px; }
+	.big_banner .ah1, .about_block .ah1, .big_banner .ah2{font-size: 25px; line-height: 27px; }
 	.inner{width: 92%;}
 }
 
@@ -97,8 +114,8 @@
 	
 }
 
-@media screen and (max-width: 420px){
-		
+@media screen and (max-width: 440px){
+	.contacts__page .double_map .block{height: 200px;}
 }
 
 @media screen and (max-width: 400px){

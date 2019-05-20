@@ -68,21 +68,40 @@
     </header>
     <main id="main">
         <div class="inner">
-            <div class="big_banner cover flex_column_center alCenter" style="background-image:url(images/big_banner.jpg);"><div class="ah1">Добро пожаловать в мир SaaPharma,
-    где Партнерство рождает Лидерство!</div></div>
-            <div class="about_block">
-                <div class="ah1">О компании</div>
-                <div class="flex_no_wrap flex_just flex_reverse">
-                    <div class="image_block"><img src="images/about.jpg" alt=""></div>
-                    <div class="text_block">
-                        <ul class="dot">
-                            <li>Товарищество с ограниченной ответственностью SaaPharma создана 08 февраля 2013 года.</li>
-                            <li>Целью компании является качественное и эффективное дистрибьюторская дея&shy;тельность фармацевтических, а так же ветеринарных услуг на  территории  Респу&shy;блики Казахстан. </li>
-                            <li>ТОО «SaaPharma» предоставляет свои услуги на основе полученных государ&shy;ственных лицензий  на фармацевтическую и  ветеринарную деятельность,  в соот&shy;ветствии с требованиями международного отраслевого стандарта в области фар&shy;мации GDP Надлежащая дистрибьюторская практика. Система обеспечения каче&shy;ства Компании позволяет сохранить контроль над качеством лекарственных средств в течении всего срока годности.</li>
-                            <li>Наша компания ежегодно участвует в государственных закупках  лекарственных средств проводимой  ТОО «СК Фармация» и Республиканским  государственным учреждением «Комитет ветеринарного контроля и надзора Министерства сельско&shy;го хозяйства Республики Казахстан.</li>
-                        </ul>
-                        <a href="" class="button db alCenter">Узнать подробнее</a>
+            <div class="big_banner cover flex_column_center alCenter page_banner" style="background-image:url(images/big_banner4.jpg);"><h1 class="ah2">Контакты</h1>
+                <ul id="bread">
+                    <li><a href="">Главная</a></li>
+                    <li>Контакты</li>
+                </ul>
+            </div>
+            <div class="contacts__page">
+                <div class="double_block flex_no_wrap flex_hcenter">
+                    <div class="contacts_block box">
+                        <div class="ah1">Наши контакты</div>
+                        <div class="address">
+                            РК, г. Алматы, пр. Достык, 38, <span class="nowrap">БЦ "Кен Дала"</span>, Блок Б, офис 705
+                        </div>
+                        <div class="tel">
+                            <div>
+                                <a href="tel:+77273451012" class=" inb vT rL">+7 (727) 345-10-12</a>
+                            </div>
+                            <div>
+                                <a href="tel:+77272918533" class=" inb vT rL">+7 (727) 291-85-33</a>
+                            </div>
+                        </div>
                     </div>
+                    <div class="form_block box">
+                        <form>
+                            <div class="ah1">Обратная связь</div>
+                            <input class="box w100 inputbox db p0" required="" type="text" placeholder="Ваше имя">
+                            <input class="box w100 inputbox db p0" required="" type="email" placeholder="Ваша почта">
+                            <button class="button">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="double_map flex_no_wrap flex_hcenter">
+                    <div class="block cover" style="background-image: url(images/addr.jpg);"></div>
+                    <div class="block" id="map"></div>
                 </div>
             </div>
         </div>
@@ -167,6 +186,29 @@
 <script src="js/jquery.arcticmodal.js"></script>
 <script src="js/script.js"></script>
 
+<script src="https://maps.api.2gis.ru/2.0/loader.js"></script>
+<script>
+            DG.then(function() {
+                var map,
+                    myIcon,
+                    myDivIcon;
+
+                map = DG.map('map', {
+                    center: [43.252257, 76.956870],
+                    zoom: 17
+                });
+
+                myIcon = DG.icon({
+                    iconUrl: 'img/mark.png',
+                    iconSize: [25, 31]
+                });
+                DG.marker([43.252257, 76.956870], {
+                    icon: myIcon
+                }).addTo(map);
+
+                
+            });
+</script>
 
 
 

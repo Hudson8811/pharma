@@ -86,8 +86,8 @@ section{position:relative;}
 main{position:relative; height:100%; clear:both;}
 header, nav, section, article, aside, footer, main{display:block;}
 #wrapper{width:100%; height:auto; margin:0 auto; position:relative; min-height:100%;}
-#footer{height: 303px; box-sizing: border-box; margin-top: -303px; background: #f3f3f3; padding-top: 25px; position: relative;}
-#subfooter{height: 303px;}
+#footer{height: 236px; box-sizing: border-box; margin-top: -236px; background: #f3f3f3; padding-top: 25px; position: relative;}
+#subfooter{height: 236px;}
 .cover{background-position:center center; background-repeat:no-repeat; background-size:cover;}
 .coverTop{background-position:top center; background-repeat:no-repeat; background-size:cover;}
 .contain{background-position:center center; background-repeat:no-repeat; background-size:contain;}
@@ -109,6 +109,7 @@ header, nav, section, article, aside, footer, main{display:block;}
 .flex_column_center{display: -webkit-box;    display: -ms-flexbox;    display: flex; -webkit-box-pack: center;    -ms-flex-pack: center; justify-content: center;    -webkit-box-align: center;    -ms-flex-align: center;    align-items: center;  -webkit-box-orient: vertical; -webkit-box-direction: normal;  -webkit-flex-direction: column; -ms-flex-direction: column;  flex-direction: column;}
 .flex_reverse{  -webkit-box-orient: horizontal;      -webkit-box-direction: reverse;      -ms-flex-direction: row-reverse;      flex-direction: row-reverse;}
 .nowrap{white-space: nowrap;}
+.dot li:before{content: ''; display: inline-block; vertical-align: middle; margin-top: -2px; width: 5px; height: 5px; border-radius: 50%; background: #0569a5; margin-right: 9px;}
 
 
 .owl-stage-outer{position:relative; overflow:hidden;}
