@@ -1,0 +1,52 @@
+#header{height: 118px; -webkit-box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.13); -moz-box-shadow:    0px 1px 9px 0px rgba(0, 0, 0, 0.13); box-shadow:         0px 1px 9px 0px rgba(0, 0, 0, 0.13); padding-top: 16px; box-sizing: border-box;}
+#header .logo{width: 157px; height: 79px; background: url(../img/logo.png) no-repeat; margin-right: 5px; margin-top: 4px;}
+#header .menu{}
+#header .menu .flex_no_wrap{-ms-flex-pack: distribute;    justify-content: space-around;}
+#header .menu > nav > ul > li{position: relative;}
+#header .menu > nav > ul > li > a{font-size: 15px;}
+#header .menu > nav > ul > li.drop b:after{width: 9px; height: 5px; background: url(../img/menu.png) no-repeat; content: ''; display: inline-block; vertical-align: middle; background-size: contain; margin-left: 5px;}
+#header .menu > nav > ul > li.drop > ul{position: absolute; background: #fff; border:1px solid #0569a5; right: -27px; top: 100%; margin-top: 25px; width: 273px; box-sizing: border-box; padding: 17px 0 1px; z-index: 1; font-size: 16px; line-height: 18px;}
+#header .menu > nav > ul > li.drop > ul:before{content: ''; position: absolute; left: 0; top: -25px; width: 100%; height: 25px;}
+#header .menu > nav > ul > li.drop > ul:after{content: ''; position: absolute; top: -15px; right: 17px; width: 29px; height: 15px; background: url(../img/menu_after.png) no-repeat;}
+#header .menu > nav > ul > li.drop:hover > ul{display: block;}
+#header .menu > nav > ul > li.drop > ul > li{margin-bottom: 15px;}
+#header .menu > nav > ul > li.drop > ul > li > a:hover{color: #0ac8af; text-decoration: underline;}
+#header .menu > nav > ul > li:hover > a{color: #0569a5;}
+#header .menu > nav > ul > li.drop > ul > li > a .image_block{width: 73px; -webkit-flex-shrink: 0;    -ms-flex-negative: 0; flex-shrink: 0; margin-top: -4px;}
+#header .search_block{width: 31.5%; margin-left: 5px; background: #f2f2f2; border-radius: 3px;}
+#header .search_block input{font-size: 16px; line-height: 20px; padding: 10px 24px; color: #818181; background: transparent;}
+#header .search_block button{width: 20px; height: 20px; right: 11px; top: 50%; margin-top: -10px; background: url(../img/lupa.svg) no-repeat; background-size: 100% auto;}
+
+.big_banner{height: 343px; color: #fff; padding: 0 30px; margin-bottom: 42px;}
+.big_banner .ah1{ font-size: 42px; line-height: 59px;}
+.big_banner > *{max-width: 690px;}
+
+.about_block{margin-bottom: 47px;}
+.about_block .ah1{font-size: 36px; color: #0569a5; line-height: 39px; font-family: 'Futura PT Demi'; margin-bottom: 25px;}
+.about_block .image_block{width: 48%; }
+.about_block .image_block img{display: block; width: 100%;}
+.about_block li:before{content: ''; display: inline-block; vertical-align: middle; width: 5px; height: 5px; border-radius: 50%; background: #0569a5; margin-right: 9px;}
+.about_block .text_block{width: 46.7%; text-align: justify;}
+.about_block .text_block .button{width: 170px; line-height: 46px; border-radius: 3px; background: #0569a5; color: #fff; margin-top: 35px;}
+
+#footer .logo_block{width: 23%; padding-right: 20px; padding-bottom: 90px;}
+#footer .logo_block .logo{width: 178px; height: 90px; background: url(../img/logo_f.png) no-repeat; margin-top: 7px;}
+#footer .logo_block .copy{font-size: 14px;}
+#footer .footer_menu{width: 23%; padding-right: 20px;}
+#footer .footer_menu li{margin-bottom: 6px; font-size: 14px;}
+#footer .footer_menu li a:hover{color: #0569a5;}
+#footer .contacts_block{width: 27.5%; padding-right: 20px; margin-top: -3px; padding-left: 8px; font-size: 14px; position: relative;}
+#footer .contacts_block > *{position: relative;}
+#footer .contacts_block .address{padding-left: 23px; line-height: 30px; margin-bottom: 2px; max-width: 200px;}
+#footer .contacts_block .address:before{content: ''; position: absolute; left: 2px; top: 7px; width: 12px; height: 15px; background: url(../img/address.png) no-repeat;}
+#footer .contacts_block .tel{padding-left: 23px; margin-bottom: 5px;}
+#footer .contacts_block .tel:before{content: ''; position: absolute; left: 2px; top: 4px; width: 14px; height: 14px; background: url(../img/tel.png) no-repeat;}
+#footer .contacts_block .email{padding-left: 23px; margin-bottom: 5px;}
+#footer .contacts_block .email:before{content: ''; position: absolute; left: 2px; top: 8px; width: 14px; height: 10px; background: url(../img/email.png) no-repeat;}
+#footer .contacts_block .work{position: absolute; margin-left: 30px;}
+#footer .contacts_block .work a{margin-left: 3px;}
+#footer .form_footer{width: 26.5%; }
+#footer .form_footer .ah1{font-size: 14px; line-height: 17px; margin-bottom: 19px; padding-top: 3px; padding-left: 33px;}
+#footer .form_footer form{max-width: 234px;}
+#footer .form_footer input{font-size: 14px; color: #666666; line-height: 18px; padding: 10px 30px; border:1px solid #0569a5; border-radius: 3px; margin-bottom: 10px; background: transparent;}
+#footer .form_footer .button{width: 170px; line-height: 46px; border-radius: 3px; background: #0569a5; color: #fff; margin-top: 0; font-size: 14px;}
