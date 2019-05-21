@@ -23,10 +23,13 @@
 }
 
 @media screen and (max-width: 999px){
+	.catalog__page{margin-left: 0; margin-right: 0;}
+	.catalog .block{width: 50%;}
+	.partners__page .block{width: 25%;}
 	.contacts__page .form_block{padding-left: 20px;}
 	.contacts__page .contacts_block{padding-right: 20px;}
 	.contacts__page .contacts_block, .contacts__page .form_block{width: 250px;}
-	.big_banner{display: block; padding: 100px 20px; height: auto;}
+	.big_banner, .big_banner.no_bg{display: block; padding: 100px 20px; height: auto;}
 	.btn11{display: block; float: right; margin-top: 35px;}
 	#header .menu.active nav{display: block;}
 	#header .menu > nav > ul > li.drop > ul > li > a .image_block, #header .menu > nav > ul > li.drop > ul:before, #header .menu > nav > ul > li.drop > ul:after{display: none;}
@@ -63,6 +66,12 @@
 }
 
 @media screen and (max-width: 650px){
+	.catalog{display: block;}
+	.catalog .block{width: auto; max-width: 300px; padding-left: 0; padding-right: 0; margin-left: auto; margin-right: auto;}
+	.partners__page .owl-prev{position: absolute; left: -20px; top: 50%; margin-top: -10px; font-size: 30px; color: #ccc;}
+	.partners__page .owl-next{position: absolute; right: -20px; top: 50%; margin-top: -10px; font-size: 30px; color: #ccc;}
+	.partners__page .block{width: auto;}
+	.partners__page .flex_wrap{display: block; margin-left: 20px; margin-right: 20px; position: relative;}
 	.contacts__page .double_map .block{width: auto;}
 	.contacts__page .double_map{display: block;}
 	.contacts__page .form_block .button{margin-left: auto; margin-right: auto;}
@@ -93,6 +102,7 @@
 	.about_block .flex_no_wrap{display: block;}
 	.big_banner{padding-top: 50px; padding-bottom: 50px;}
 	.big_banner .ah1, .about_block .ah1, .big_banner .ah2{font-size: 25px; line-height: 27px; }
+	.big_banner.no_bg{padding-top: 40px; padding-bottom: 10px;}
 	.inner{width: 92%;}
 }
 
