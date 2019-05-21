@@ -6,17 +6,18 @@
 <meta name="HandheldFriendly" content="true">
 <meta name="MobileOptimized" content="320">
 <title>Title here</title>
-
+<link rel="stylesheet" type="text/css" href="css/animate.css">
 <link rel="stylesheet" type="text/css" href="assets/fonts/fonts.css">
 
 <link rel="stylesheet" type="text/css" href="css/global.css">
+<link rel="stylesheet" type="text/css" href="assets/fancybox/jquery.fancybox.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/adaptive.css">
 </head>
 
 <body> 
 <div id="wrapper">
-    <header id="header">
+    <header class="slideInDown animated" id="header">
         <div class="inner flex_no_wrap flex_just flex_vcenter">
             <a href="" class="logo db flex_shrink"></a>
             <div class="menu w100">
@@ -68,7 +69,7 @@
     </header>
     <main id="main">
         <div class="inner">
-            <div class="big_banner cover flex_column_center alCenter page_banner" style="background-image:url(images/big_banner4.jpg);"><h1 class="ah2">Контакты</h1>
+            <div class="big_banner cover flex_column_center alCenter page_banner wow fadeInUp" style="background-image:url(images/big_banner4.jpg);"><h1 class="ah2">Контакты</h1>
                 <ul id="bread">
                     <li><a href="">Главная</a></li>
                     <li>Контакты</li>
@@ -76,7 +77,7 @@
             </div>
             <div class="contacts__page">
                 <div class="double_block flex_no_wrap flex_hcenter">
-                    <div class="contacts_block box">
+                    <div class="contacts_block box wow fadeInLeft">
                         <div class="ah1">Наши контакты</div>
                         <div class="address">
                             РК, г. Алматы, пр. Достык, 38, <span class="nowrap">БЦ "Кен Дала"</span>, Блок Б, офис 705
@@ -90,7 +91,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form_block box">
+                    <div class="form_block box wow fadeInRight">
                         <form>
                             <div class="ah1">Обратная связь</div>
                             <input class="box w100 inputbox db p0" required="" type="text" placeholder="Ваше имя">
@@ -99,7 +100,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="double_map flex_no_wrap flex_hcenter">
+                <div class="double_map flex_no_wrap flex_hcenter wow fadeInUp">
                     <div class="block cover" style="background-image: url(images/addr.jpg);"></div>
                     <div class="block" id="map"></div>
                 </div>
@@ -179,11 +180,22 @@
     </div>
 </div>
 
+
+<script src="js/wow.min.js"></script>
+<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       0
+      }
+    );
+    wow.init();
+</script>
+
 <script src="js/jquery-1.12.1.js"></script>
 <script src="js/owl.carousel.js"></script>
-<script src="js/mask.js"></script>
-<script src="js/jquery.nice-select.min.js"></script>
 <script src="js/jquery.arcticmodal.js"></script>
+<script src="js/jquery.fancybox.js"></script>
 <script src="js/script.js"></script>
 
 <script src="https://maps.api.2gis.ru/2.0/loader.js"></script>

@@ -295,4 +295,9 @@ header, nav, section, article, aside, footer, main{display:block;}
           transform: rotateZ(45deg) scaleX(1.4) translate(0px, -1px);
 }
 
-.no-avatar{background-image: url(../img/no-avatar.jpg);}
+
+
+
+.wow {
+  visibility: hidden;
+}

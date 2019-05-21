@@ -6,17 +6,18 @@
 <meta name="HandheldFriendly" content="true">
 <meta name="MobileOptimized" content="320">
 <title>Title here</title>
-
+<link rel="stylesheet" type="text/css" href="css/animate.css">
 <link rel="stylesheet" type="text/css" href="assets/fonts/fonts.css">
 
 <link rel="stylesheet" type="text/css" href="css/global.css">
+<link rel="stylesheet" type="text/css" href="assets/fancybox/jquery.fancybox.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/adaptive.css">
 </head>
 
 <body> 
 <div id="wrapper">
-    <header id="header">
+    <header class="slideInDown animated" id="header">
         <div class="inner flex_no_wrap flex_just flex_vcenter">
             <a href="" class="logo db flex_shrink"></a>
             <div class="menu w100">
@@ -68,13 +69,13 @@
     </header>
     <main id="main">
         <div class="inner">
-            <div class="big_banner cover flex_column_center alCenter page_banner" style="background-image:url(images/big_banner2.jpg);"><h1 class="ah2">Лекарственные препараты для людей</h1>
+            <div class="big_banner cover flex_column_center alCenter page_banner wow fadeInUp" style="background-image:url(images/big_banner2.jpg);"><h1 class="ah2">Лекарственные препараты для людей</h1>
                 <ul id="bread">
                     <li><a href="">Главная</a></li>
                     <li>Лекарственные препараты для людей</li>
                 </ul>
             </div>
-            <div class="main_menu flex_wrap">
+            <div class="main_menu flex_wrap wow fadeInUp">
                 <div class="w33">
                     <ul>
                         <li><a href="">Вакцины</a></li>
@@ -180,11 +181,22 @@
     </div>
 </div>
 
+
+<script src="js/wow.min.js"></script>
+<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       0
+      }
+    );
+    wow.init();
+</script>
+
 <script src="js/jquery-1.12.1.js"></script>
 <script src="js/owl.carousel.js"></script>
-<script src="js/mask.js"></script>
-<script src="js/jquery.nice-select.min.js"></script>
 <script src="js/jquery.arcticmodal.js"></script>
+<script src="js/jquery.fancybox.js"></script>
 <script src="js/script.js"></script>
 
 

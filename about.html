@@ -6,17 +6,18 @@
 <meta name="HandheldFriendly" content="true">
 <meta name="MobileOptimized" content="320">
 <title>Title here</title>
-
+<link rel="stylesheet" type="text/css" href="css/animate.css">
 <link rel="stylesheet" type="text/css" href="assets/fonts/fonts.css">
 
 <link rel="stylesheet" type="text/css" href="css/global.css">
+<link rel="stylesheet" type="text/css" href="assets/fancybox/jquery.fancybox.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/adaptive.css">
 </head>
 
 <body> 
 <div id="wrapper">
-    <header id="header">
+    <header class="slideInDown animated" id="header">
         <div class="inner flex_no_wrap flex_just flex_vcenter">
             <a href="" class="logo db flex_shrink"></a>
             <div class="menu w100">
@@ -68,14 +69,14 @@
     </header>
     <main id="main">
         <div class="inner">
-                <div class="big_banner cover flex_column_center alCenter page_banner" style="background-image:url(images/big_banner3.jpg);"><h1 class="ah2">О компании</h1>
+                <div class="big_banner cover flex_column_center alCenter page_banner wow fadeInUp" style="background-image:url(images/big_banner3.jpg);"><h1 class="ah2">О компании</h1>
                     <ul id="bread">
                         <li><a href="">Главная</a></li>
                         <li>О компании</li>
                     </ul>
                 </div>
                 <div class="about__page">
-                    <ul class="dot">
+                    <ul class="dot wow fadeInUp">
                         <li>Товарищество с ограниченной ответственностью SaaPharma создана 08 февраля 2013 года.</li>
                         <li>Целью компании является качественное и эффективное дистрибьюторская дея&shy;тельность фармацевтических, а так же ветеринарных услуг на  территории  Респу&shy;блики Казахстан. </li>
                         <li>ТОО «SaaPharma» предоставляет свои услуги на основе полученных государ&shy;ственных лицензий  на фармацевтическую и  ветеринарную деятельность,  в соот&shy;ветствии с требования&shy;ми международного отраслевого стандарта в области фар&shy;мации GDP Надлежащая дистрибьюторская практика. Система обеспечения каче&shy;ства Компании позволяет сохранить контроль над качеством лекарственных средств в течении всего срока годности.</li>
@@ -83,7 +84,7 @@
                         <li>Компания имеет в штате высококвалифицированных специалистов, которые обеспечивают развитие и имидж компании на рынке фармацевтических и ветеринарных услуг Респу&shy;блики Казахстан.</li>
                     </ul>
                     <div class="double_block flex_no_wrap flex_just">
-                        <div class="sklad">
+                        <div class="sklad wow fadeInLeft">
                             <img src="img/warehouse.svg" width="30" alt="">
                             <div class="ah1">Склад</div>
                             <ul class="dot">
@@ -91,7 +92,7 @@
                                 <li>Фармацевтический склад оснащен температурно-влажным режимом, что обеспечивает хранение лекарственных препаратов, хранение которых предусматривается в обычной упаковке без предъявления требований к тем&shy;пературно-влажностному режиму, и группы препаратов, требующих стабильных параметров влажности и температуры.</li>
                             </ul>
                         </div>
-                        <div class="truck">
+                        <div class="truck wow fadeInRight">
                             <img src="img/truck.svg" width="42" alt="">
                             <div class="ah1">Транспорт</div>
                             <ul>
@@ -175,11 +176,22 @@
     </div>
 </div>
 
+
+<script src="js/wow.min.js"></script>
+<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       0
+      }
+    );
+    wow.init();
+</script>
+
 <script src="js/jquery-1.12.1.js"></script>
 <script src="js/owl.carousel.js"></script>
-<script src="js/mask.js"></script>
-<script src="js/jquery.nice-select.min.js"></script>
 <script src="js/jquery.arcticmodal.js"></script>
+<script src="js/jquery.fancybox.js"></script>
 <script src="js/script.js"></script>
 
 

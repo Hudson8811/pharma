@@ -1,4 +1,8 @@
 .color{background: #f6f6f6;}
+.main_title{font-size: 48px; line-height: 51px; color: #0569a5;}
+.dwn_link{font-size: 16px; line-height: 16px; padding-left: 60px; position: relative; display: inline-block; vertical-align: top; max-width: 215px; min-height: 32px; padding-top: 13px; padding-bottom: 13px;}
+.dwn_link:before{content: ''; position: absolute ; left: 0; top: 50%; margin-top: -29px; height: 58px; width: 45px; background: url(../img/file.svg) no-repeat; background-size: 100% auto;}
+.dwn_link:hover{color: #0569a5;}
 
 #header{height: 118px; -webkit-box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.13); -moz-box-shadow:    0px 1px 9px 0px rgba(0, 0, 0, 0.13); box-shadow:         0px 1px 9px 0px rgba(0, 0, 0, 0.13); padding-top: 16px; box-sizing: border-box; background: #fff;}
 #header .logo{width: 157px; height: 79px; background: url(../img/logo.png) no-repeat; margin-right: 5px; margin-top: 4px;}
@@ -25,7 +29,8 @@
 .page_banner{height: 264px;}
 .big_banner.no_bg{height: 190px; color: #0569a5;}
 
-#bread{font-size: 14px; margin-top: 11px;}
+.big_banner #bread{color: inherit; padding-top: 0; padding-bottom: 0;}
+#bread{font-size: 14px; margin-top: 11px; padding-top: 10px; margin-bottom: 28px; color: #0569a5;}
 #bread li{display: inline; font-family: 'Futura PT Light';}
 #bread li a{font-family: 'Futura PT Light';}
 #bread li + li:before{content: '/'; display: inline;}
@@ -79,6 +84,15 @@ box-shadow:         0px 7px 8px 0px rgba(0, 0, 0, 0.22);}
 .catalog .block .image_block img{max-width: 90%; max-height: 90%;}
 .catalog .block .ah1{font-size: 16px; line-height: 19px; padding: 0 20px; margin-bottom: 25px;}
 .catalog .block .link{width: 170px; line-height: 46px; border-radius: 3px; background: #0569a5; color: #fff; margin-top: 0; font-size: 16px;}
+
+.item__page{padding-bottom: 40px;}
+.item__page .image_block{width: 40%; height: 310px; background: #fff; margin-bottom: 30px;}
+.item__page .image_block img{max-width: 80%; max-height: 90%;}
+.item__page .text_block{width: 58%;}
+.item__page .text_block .main_title{padding-top: 6px; margin-bottom: 60px;}
+.item__page .text_block .dwn_link{margin-bottom: 45px;}
+.item__page .text{font-size: 17px; line-height: 24px; max-width: 973px; text-align: justify;}
+.item__page .text li{margin-left: 15px;}
 
 #footer .logo_block{width: 23%; padding-right: 20px; padding-bottom: 90px;}
 #footer .logo_block .logo{width: 178px; height: 90px; background: url(../img/logo_f.png) no-repeat; margin-top: 7px;}
