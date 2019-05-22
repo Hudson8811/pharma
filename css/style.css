@@ -4,7 +4,7 @@
 .dwn_link:before{content: ''; position: absolute ; left: 0; top: 50%; margin-top: -29px; height: 58px; width: 45px; background: url(../img/file.svg) no-repeat; background-size: 100% auto;}
 .dwn_link:hover{color: #0569a5;}
 
-#header{height: 118px; -webkit-box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.13); -moz-box-shadow:    0px 1px 9px 0px rgba(0, 0, 0, 0.13); box-shadow:         0px 1px 9px 0px rgba(0, 0, 0, 0.13); padding-top: 16px; box-sizing: border-box; background: #fff;}
+#header{height: 118px; -webkit-box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.13); -moz-box-shadow:    0px 1px 9px 0px rgba(0, 0, 0, 0.13); box-shadow:         0px 1px 9px 0px rgba(0, 0, 0, 0.13); padding-top: 16px; box-sizing: border-box; background: #fff; z-index: 2; position: relative;}
 #header .logo{width: 157px; height: 79px; background: url(../img/logo.png) no-repeat; margin-right: 5px; margin-top: 4px;}
 #header .menu{}
 #header .menu .flex_no_wrap{-ms-flex-pack: distribute;    justify-content: space-around;}
