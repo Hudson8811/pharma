@@ -9,10 +9,10 @@
 #header .menu{}
 #header .menu .flex_no_wrap{-ms-flex-pack: distribute;    justify-content: space-around;}
 #header .menu > nav > ul > li{position: relative;}
-#header .menu > nav > ul > li > a{font-size: 15px;}
+#header .menu > nav > ul > li > a{font-size: 17px;}
 #header .menu > nav > ul > li.drop b:after{width: 9px; height: 5px; background: url(../img/menu.png) no-repeat; content: ''; display: inline-block; vertical-align: middle; background-size: contain; margin-left: 5px;}
 #header .menu > nav > ul > li.drop > ul{position: absolute; background: #fff; border:1px solid #0569a5; right: -27px; top: 100%; margin-top: 25px; width: 273px; box-sizing: border-box; padding: 17px 0 1px; z-index: 1; font-size: 16px; line-height: 18px;}
-#header .menu > nav > ul > li.drop > ul:before{content: ''; position: absolute; left: 0; top: -25px; width: 100%; height: 25px;}
+#header .menu > nav > ul > li.drop > ul:before{content: ''; position: absolute; left: 0; top: -27px; width: 100%; height: 27px;}
 #header .menu > nav > ul > li.drop > ul:after{content: ''; position: absolute; top: -15px; right: 17px; width: 29px; height: 15px; background: url(../img/menu_after.png) no-repeat;}
 #header .menu > nav > ul > li.drop:hover > ul{display: block;}
 #header .menu > nav > ul > li.drop > ul > li{margin-bottom: 15px;}
@@ -30,7 +30,7 @@
 .big_banner.no_bg{height: 190px; color: #0569a5;}
 
 .big_banner #bread{color: inherit; padding-top: 0; padding-bottom: 0;}
-#bread{font-size: 14px; margin-top: 11px; padding-top: 10px; margin-bottom: 28px; color: #0569a5;}
+#bread{font-size: 16px; margin-top: 11px; padding-top: 10px; margin-bottom: 28px; color: #0569a5;}
 #bread li{display: inline; font-family: 'Futura PT Light';}
 #bread li a{font-family: 'Futura PT Light';}
 #bread li + li:before{content: '/'; display: inline;}
@@ -42,10 +42,10 @@
 .about_block .text_block{width: 46.7%; text-align: justify;}
 .about_block .text_block .button{width: 170px; line-height: 46px; border-radius: 3px; background: #0569a5; color: #fff; margin-top: 35px;}
 
-.main_menu{padding-top: 5px;}
+.main_menu{padding-top: 5px; padding-bottom: 35px;}
 .main_menu li{box-sizing: border-box; padding-right: 30px; font-size: 17px; line-height: 17px; min-height: 34px;}
 .main_menu li a{display: inline-block; vertical-align: top; max-width: 330px;}
-.main_menu li a:hover{color: #346ca3; font-family: 'Futura PT Medium';}
+.main_menu li a{color: #346ca3; font-family: 'Futura PT Medium';}
 
 .about__page{text-align: justify; font-size: 16px; line-height: 24px; padding-bottom: 40px;}
 .about__page .double_block{margin-top: 40px;}
