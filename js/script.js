@@ -5,7 +5,7 @@ $(function() {
   });
 });
 
-if (window.innerWidth < 651) {
+if (window.innerWidth < 999) {
   $('.mobile_partner_slider').owlCarousel({
       items:1,
       loop:true,

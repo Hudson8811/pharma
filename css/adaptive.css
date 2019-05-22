@@ -25,7 +25,10 @@
 @media screen and (max-width: 999px){
 	.catalog__page{margin-left: 0; margin-right: 0;}
 	.catalog .block{width: 50%;}
-	.partners__page .block{width: 25%;}
+	.partners__page .owl-prev{position: absolute; left: -20px; top: 50%; margin-top: -10px; font-size: 30px; color: #ccc;}
+	.partners__page .owl-next{position: absolute; right: -20px; top: 50%; margin-top: -10px; font-size: 30px; color: #ccc;}
+	.partners__page .flex_wrap{display: block; margin-left: 20px; margin-right: 20px; position: relative;}
+	.partners__page .block{width: auto;}
 	.contacts__page .form_block{padding-left: 20px;}
 	.contacts__page .contacts_block{padding-right: 20px;}
 	.contacts__page .contacts_block, .contacts__page .form_block{width: 250px;}
@@ -70,10 +73,6 @@
 	.item__page .text_block .main_title{margin-bottom: 20px;}
 	.catalog{display: block;}
 	.catalog .block{width: auto; max-width: 300px; padding-left: 0; padding-right: 0; margin-left: auto; margin-right: auto;}
-	.partners__page .owl-prev{position: absolute; left: -20px; top: 50%; margin-top: -10px; font-size: 30px; color: #ccc;}
-	.partners__page .owl-next{position: absolute; right: -20px; top: 50%; margin-top: -10px; font-size: 30px; color: #ccc;}
-	.partners__page .block{width: auto;}
-	.partners__page .flex_wrap{display: block; margin-left: 20px; margin-right: 20px; position: relative;}
 	.contacts__page .double_map .block{width: auto;}
 	.contacts__page .double_map{display: block;}
 	.contacts__page .form_block .button{margin-left: auto; margin-right: auto;}
