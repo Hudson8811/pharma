@@ -69,7 +69,7 @@
     </header>
     <main id="main">
         <div class="inner">
-            <div class="big_banner cover flex_column_center alCenter no_bg wow fadeInUp"><h1 class="ah2">Анестетики</h1>
+            <div class="big_banner cover flex_column_center alCenter no_bg wow fadeInUp"><h1 id="main-title" class="ah2"></h1>
                 <ul id="bread">
                     <li><a href="">Главная</a></li>
                     <li><a href="">Лекарственные препараты для людей</a></li>
@@ -162,7 +162,25 @@
 <script src="js/jquery.fancybox.js"></script>
 <script src="js/script.js"></script>
 
+<script>
+    function writeTextByJS(id, text, speed){
+      var ele = document.getElementById(id),
+          txt = text.join("").split("");
+      var interval = setInterval(function(){
+        if(!txt[0]){
+          return clearInterval(interval);
+        };        ele.innerHTML += txt.shift();
+      }, speed != undefined ? speed : 70);
+      return false;
+    };
 
+    writeTextByJS(
+      "main-title",
+      [
+        "Анестетики"
+      ]
+    );
+</script>
 
 
 </body>

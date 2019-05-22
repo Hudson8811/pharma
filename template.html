@@ -69,7 +69,7 @@
     </header>
     <main id="main">
         <div class="inner">
-            <div class="big_banner cover flex_column_center alCenter page_banner wow fadeInUp" style="background-image:url(images/big_banner2.jpg);"><h1 class="ah2">Лекарственные препараты для животных</h1>
+            <div class="big_banner cover flex_column_center alCenter page_banner wow fadeInUp" style="background-image:url(images/big_banner2.jpg);"><h1 id="main-title" class="ah2"></h1>
                 <ul id="bread">
                     <li><a href="">Главная</a></li>
                     <li>Лекарственные препараты для животных</li>
@@ -132,7 +132,25 @@
 <script src="js/script.js"></script>
 
 
+<script>
+    function writeTextByJS(id, text, speed){
+      var ele = document.getElementById(id),
+          txt = text.join("").split("");
+      var interval = setInterval(function(){
+        if(!txt[0]){
+          return clearInterval(interval);
+        };        ele.innerHTML += txt.shift();
+      }, speed != undefined ? speed : 70);
+      return false;
+    };
 
+    writeTextByJS(
+      "main-title",
+      [
+        "Заголовок"
+      ]
+    );
+</script>
 
 </body>
 </html>

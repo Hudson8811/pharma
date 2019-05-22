@@ -69,8 +69,7 @@
     </header>
     <main id="main">
         <div class="inner">
-            <div class="big_banner cover flex_column_center alCenter wow fadeInUp" style="background-image:url(images/big_banner.jpg);"><div class="ah1">Добро пожаловать в мир SaaPharma,
-    где Партнерство рождает Лидерство!</div></div>
+            <div class="big_banner cover flex_column_center alCenter wow fadeInUp" style="background-image:url(images/big_banner.jpg);"><div id="main-title" class="ah1"></div></div>
             <div class="about_block">
                 <div class="ah1 wow fadeInUp">О компании</div>
                 <div class="flex_no_wrap flex_just flex_reverse">
@@ -143,7 +142,25 @@
 <script src="js/script.js"></script>
 
 
+<script>
+    function writeTextByJS(id, text, speed){
+      var ele = document.getElementById(id),
+          txt = text.join("").split("");
+      var interval = setInterval(function(){
+        if(!txt[0]){
+          return clearInterval(interval);
+        };        ele.innerHTML += txt.shift();
+      }, speed != undefined ? speed : 70);
+      return false;
+    };
 
+    writeTextByJS(
+      "main-title",
+      [
+        "Добро пожаловать в мир SaaPharma, где Партнерство рождает Лидерство!"
+      ]
+    );
+</script>
 
 
 </body>
